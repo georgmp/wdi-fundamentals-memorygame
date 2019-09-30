@@ -76,6 +76,51 @@ footer {
 	font-weight: 500;
 }
 
+button {
+	clear: both;
+	font-family: "Raleway", sans-serif;
+	background-color: #F91B31;
+	color: #FFFFFF;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+}
+
+button:hover {
+	clear: both;
+	font-family: "Raleway", sans-serif;
+	background-color: #00A6B3;
+	color: #FFFFFF;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.instructions {
+	width: 50%;
+	float: left;
+}
+
+table, th, td {
+	background-color: #232323;
+	margin: 0 auto;
+	border: 1px solid white;
+	border-collapse: collapse;
+	text-transform: uppercase;
+	border-radius: 15px;
+}
+
+th, td {
+	padding: 10px 20px;
+}
+
+.scoreboard {
+	float: right;
+	width: 50%;
+	font-family: 'Londrina Shadow', cursive;
+	color: #aaaaaa;
+}
+
 .copyright {
 	font-family: Raleway, sans-serif;
 	float: left;
